@@ -1,31 +1,28 @@
 
-// 1-masala
-// Function declaration
+// // 1-masala
+// // Function declaration
 
-// let userAge = +prompt("yoshingiznki kiritin:")
+// // let userAge = +prompt("yoshingiznki kiritin:")
 // export function showAge(age) {
 //     let a = age;
 //     console.log(`sizning yoshingiz ${a} da`);
 // }
 // showAge(userAge)
 
-// function expression
+// // function expression
 
-// let userAge = +prompt("yoshingiznki kiritin:")
-// const showAge = function (age) {
+// // let userAge = +prompt("yoshingiznki kiritin:")
+// export const showAgeE = function (age) {
+//     console.log(`sizning yoshingiz ${age} da`);
+// }
+
+// // Arrow function
+
+// // let userAge = +prompt("yoshingiznki kiritin:")
+// export const showAgeA = (age) => {
 //     let a = age;
 //     console.log(`sizning yoshingiz ${a} da`);
 // }
-// showAge(userAge)
-
-// Arrow function
-
-// let userAge = +prompt("yoshingiznki kiritin:")
-// const showAge = (age) => {
-//     let a = age;
-//     console.log(`sizning yoshingiz ${a} da`);
-// }
-// showAge(userAge)
 
 // 2-masala
 
@@ -33,7 +30,7 @@
 
 // let num1 = +prompt("1-sonni kiriting:")
 // let num2 = +prompt("2-sonni kiriting:")
-// function addNumbr(a,  b) {
+// export function addNumbr(a,  b) {
 //     let sum = (a + b)
 //     console.log(sum);
 // }
@@ -43,7 +40,7 @@
 
 // let num1 = +prompt("1-sonni kiriting:")
 // let num2 = +prompt("2-sonni kiriting:")
-// const addNumbr = function (a, b) {
+// const addNumbrE = function (a, b) {
 //     let sum = (a + b)
 //     console.log(sum);
 // }
@@ -53,7 +50,7 @@
 
 // let num1 = +prompt("1-sonni kiriting:")
 // let num2 = +prompt("2-sonni kiriting:")
-// const addNumbr = (a, b) => {
+// const addNumbrA = (a, b) => {
 //     let sum = (a + b)
 //     console.log(sum);
 // }
@@ -73,7 +70,7 @@
 // function expression
 
 // let userName = prompt("Ismingizni kiriting:")
-// const showName = function (name) {
+// export const showNameE = function (name) {
 //     let a = name
 //     console.log(`salom! ${a}`);
 // }
@@ -82,7 +79,7 @@
 // Arrow function
 
 // let userName = prompt("Ismingizni kiriting:")
-// const showName = (name) => {
+// export const showNameA = (name) => {
 //     let a = name
 //     console.log(`salom! ${a}`);
 // }
@@ -92,21 +89,21 @@
 
 // Function declaration
 
-// function userFullname(firstname, lastname) {
+// export function userFullname(firstname, lastname) {
 //     console.log(fullname, lastname);
 // }
 // userFullname(raxmatov, jaxongir)
 
 // function expression
 
-// const Fullname = function(firstname, lastname) {
+// export const FullnameE = function(firstname, lastname) {
 //     console.log(firstname, lastname);
 // }
 // Fullname("raxmatov", "jaxongir")
 
 // Arrow function
 
-// const  fullname = (firstname, lastname) => {
+// export const  fullnameA = (firstname, lastname) => {
 //     console.log(firstname, lastname);
 // }
 
@@ -116,7 +113,7 @@
 
 // Function declaration
 
-// function rectabglePerimetr(b, a) {
+// export function rectabglePerimetr(b, a) {
 //     console.log(2 * (b + a));
 // }
 
@@ -124,7 +121,7 @@
 
 // function expression
 
-// const rectabglePerimetr = function (b, a) {
+// export const rectabglePerimetrE = function (b, a) {
 //     console.log(2 * (b + a));
 // }
 
@@ -132,7 +129,7 @@
 
 // Arrow function
 
-// const orectabglePerimetr = (b, a) {
+// export const orectabglePerimetrA = (b, a) {
 //     console.log(2 * (b + a));
 // }
 // rectabglePerimetr(10, 10)
@@ -141,7 +138,7 @@
 
 // Function declaration
 
-// function sides(a, b, c) {
+// export function sides(a, b, c) {
 //     console.log(`a: ${a}`);
 //     console.log(`b: ${b}`);
 //     console.log(`c: ${c}`);
@@ -150,7 +147,7 @@
 
 // function expression
 
-// const sides = function (a, b, c,) {
+// export const sidesE = function (a, b, c,) {
 //     console.log(`a: ${a}`);
 //     console.log(`b: ${b}`);
 //     console.log(`c: ${c}`);
@@ -159,7 +156,7 @@
 
 // Arrow function
 
-// const sides = (a, b, c,) => {
+// export const sidesA = (a, b, c,) => {
 //     console.log(`a: ${a}`);
 //     console.log(`b: ${b}`);
 //     console.log(`c: ${c}`);
@@ -170,27 +167,44 @@
 
 // Function declaration
 
-// function num(number) {
+// export function num(number) {
 //     console.log(Math.pow(number, 6))
 // }
 // num(23)
 
 // function expression
 
-// const num = function (number) {
+// export const numE = function (number)=> {
 //     console.log(Math.pow(number, 6))
 // }
 // num(23)
 
 // Arrow function
 
-// const num = (number) => {
+// export const numA = (number) => {
 //     console.log(Math.pow(number, 6))
 // }
 // num(23)
 
 // 8-masala
-// function animaliinfo(name, age) {
+
+// Function declaration
+
+// export function animaliinfo(name, age) {
+//     console.log(`bu ${name} ${age} yoshda`);
+// }
+// animaliinfo("mushug", 2)
+
+// function expression
+
+// export const animaliinfoE =function (name, age) {
+//     console.log(`bu ${name} ${age} yoshda`);
+// }
+// animaliinfo("mushug", 2)
+
+// Arrow function
+
+// export const animaliinfoA =(name, age) => {
 //     console.log(`bu ${name} ${age} yoshda`);
 // }
 // animaliinfo("mushug", 2)
@@ -199,55 +213,55 @@
 
 // Function declaration
 
-// function sayHello(){
+// export function sayHello(){
 //     console.log("salom dunyo");
 // }
 // sayHello()
 
 // function expression
 
-// const sayHello = function () {
+// export const sayHelloE = function () {
 //     console.log("salom dunyo");
 // }
 // sayHello()
 
 // Arrow function
 
-// const sayHello = () => {
+// export const sayHelloA = () => {
 //     console.log("salom dunyo");
 // }
 // sayHello()
 
-// 10-masala
+10-masala
 
-// Function declaration
+Function declaration
 
-// function printName(name1, name2, name3, name4, name5) {
-//     console.log(name1);
-//     console.log(name2);
-//     console.log(name3);
-//     console.log(name4);
-//     console.log(name5);
-// }
-// printName("Ali", "Vali", "Abdulloh", "G'ulom", "Jahongir")
+export function printName(name1, name2, name3, name4, name5) {
+    console.log(name1);
+    console.log(name2);
+    console.log(name3);
+    console.log(name4);
+    console.log(name5);
+}
+printName("Ali", "Vali", "Abdulloh", "G'ulom", "Jahongir")
 
-// function expression
-// const printName = function (name1, name2, name3, name4, name5) {
-//     console.log(name1);
-//     console.log(name2);
-//     console.log(name3);
-//     console.log(name4);
-//     console.log(name5);
-// }
-// printName("Ali", "Vali", "Abdulloh", "G'ulom", "Jahongir")
+function expression
+export const printNameE = function (name1, name2, name3, name4, name5) {
+    console.log(name1);
+    console.log(name2);
+    console.log(name3);
+    console.log(name4);
+    console.log(name5);
+}
+printName("Ali", "Vali", "Abdulloh", "G'ulom", "Jahongir")
 
-// Arrow function
+Arrow function
 
-// const printName =(name1, name2, name3, name4, name5) =>{
-//     console.log(name1);
-//     console.log(name2);
-//     console.log(name3);
-//     console.log(name4);
-//     console.log(name5);
-// }
-// printName("Ali", "Vali", "Abdulloh", "G'ulom", "Jahongir")
+export const printNameA =(name1, name2, name3, name4, name5) =>{
+    console.log(name1);
+    console.log(name2);
+    console.log(name3);
+    console.log(name4);
+    console.log(name5);
+}
+printName("Ali", "Vali", "Abdulloh", "G'ulom", "Jahongir")
